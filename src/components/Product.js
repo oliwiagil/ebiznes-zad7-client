@@ -21,7 +21,7 @@ export const Product = () => {
             <div className="products">
                 <p>Dostępne produkty (w nawiasie podana jest cena):</p>
                 <ul>
-                    {products.map((product) => (<li>
+                    {products.map((product) => (<li key={product.id}>
                         {product.name} ({product.price})&nbsp;
                         <button onClick={() => addCart(product)}>Dodaj do koszyka</button>
                     </li>))}

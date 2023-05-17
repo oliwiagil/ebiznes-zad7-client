@@ -10,7 +10,7 @@ export const Cart = () => {
         <div>
             <div className="cart">
                 <ul>
-                    {cart.map((product) => (<li>
+                    {cart.map((product) => (<li key={product.id}>
                         {product.name} {product.price} &nbsp;
                     </li>))}
                     <Payment value={cart.length}></Payment>
