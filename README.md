@@ -1,3 +1,12 @@
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=oliwiagil_ebiznes-zad7-client&metric=bugs)](https://sonarcloud.io/summary/new_code?id=oliwiagil_ebiznes-zad7-client)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=oliwiagil_ebiznes-zad7-client&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=oliwiagil_ebiznes-zad7-client)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=oliwiagil_ebiznes-zad7-client&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=oliwiagil_ebiznes-zad7-client)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=oliwiagil_ebiznes-zad7-client&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=oliwiagil_ebiznes-zad7-client)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
