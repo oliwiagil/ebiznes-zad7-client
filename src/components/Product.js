@@ -3,8 +3,6 @@ import {ShopContext} from "../contexts/context";
 import axios from "axios";
 
 async function getProducts() {
- //   const res = await axios.get(`http://localhost:9000/products`)
-  //  return res.data;
     return await axios.get(`http://localhost:9000/products`).then(res=>res.data)
 }
 
@@ -15,8 +13,7 @@ export const Product = () => {
     useEffect
     ( () => {
         const productsServer = getProducts()
-        productsServer.then((product)=>{setProducts(product)}
-        )
+        productsServer.then((product)=>{setProducts(product)}, error => {alert(error)})
     },[])
 
     return (
